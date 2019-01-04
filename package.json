@@ -1,22 +1,22 @@
 {
-  "name": "electron-quick-start",
+  "name": "master-electron",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Master Electron Course Code",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "watch": "nodemon --exec 'electron .'"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/stackacademytv/master-electron",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
+    "Master Electron",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "GitHub, Stackacademytv",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "4.*.*"
+    "electron": "4.*.*",
+    "nodemon": "^1.18.9"
   }
 }
