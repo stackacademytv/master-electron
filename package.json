@@ -17,7 +17,7 @@
   "author": "GitHub, Stackacademytv",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^4.0.1",
+    "electron": "^5.0.0",
     "nodemon": "^1.18.9"
   },
   "dependencies": {}
