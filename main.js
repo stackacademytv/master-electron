@@ -10,7 +10,13 @@ function createWindow () {
 
   mainWindow = new BrowserWindow({
     width: 1000, height: 800,
-    webPreferences: { nodeIntegration: true }
+    webPreferences: {
+      // --- !! IMPORTANT !! ---
+      // Disable 'contextIsolation' to allow 'nodeIntegration'
+      // 'contextIsolation' defaults to "true" as from Electron v12
+      contextIsolation: false,
+      nodeIntegration: true
+    }
   })
 
   // Load index.html into the new BrowserWindow
