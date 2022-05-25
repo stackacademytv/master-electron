@@ -2,13 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- !! IMPORTANT !! -->
-    <!-- Content-Security-Policy no longer required. Will show warning in devtools. Can be ignored -->
-    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'"> -->
-    <title>Hello World!</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
     <style>
       html { font-family: sans-serif; background: #2B2E3B; color: #9FEAF9; }
     </style>
+    <title>Hello World!</title>
   </head>
   <body>
 
