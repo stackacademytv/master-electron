@@ -19,9 +19,5 @@
   "devDependencies": {
     "electron": "^20.0.0",
     "nodemon": "^2.0.0"
-  },
-  "dependencies": {
-    "colors": "^1.4.0",
-    "sqlite3": "^5.0.8"
   }
 }
